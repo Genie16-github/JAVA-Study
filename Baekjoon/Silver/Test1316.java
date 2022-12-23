@@ -1,4 +1,4 @@
-// [S5]그룹 단어 체커
+// [S5]
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

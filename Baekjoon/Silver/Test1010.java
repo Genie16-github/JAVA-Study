@@ -27,17 +27,17 @@ public class Test1010 {
 	
 	static int combi(int n, int r) {
 		
-		// 이미 풀린 경우 바로 반환
+		
 		if(dp[n][r] > 0) {
 			return dp[n][r]; 
 		}
 		
-		// 2번 성질
+
 		if(n == r || r == 0) {
 			return dp[n][r] = 1;
 		}
 		
-		// 1번 성질
+
 		return dp[n][r] = combi(n - 1, r - 1) + combi(n - 1, r);
 	}
 }

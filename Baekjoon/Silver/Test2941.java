@@ -1,4 +1,4 @@
-// [S5]크로아티아 알파벳
+// [S5]
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
