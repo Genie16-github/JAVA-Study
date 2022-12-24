@@ -1,3 +1,4 @@
+// [S5]다리 놓기
 import java.util.Scanner;
  
 public class Test1010 {
