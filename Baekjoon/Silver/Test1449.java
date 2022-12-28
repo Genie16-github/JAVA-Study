@@ -1,8 +1,8 @@
+// [S3]¼ö¸®°ø Ç×½Â
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// [S3]¼ö¸®°ø Ç×½Â
 public class Test1449 {
 	public static void main(String[] args) throws IOException{
 		Scanner sc = new Scanner(System.in);
