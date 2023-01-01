@@ -11,7 +11,7 @@ public class Test1026 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         ArrayList<Integer> A = new ArrayList<>();
         ArrayList<Integer> B = new ArrayList<>();
-        //이재범
+
         int res = 0;
         int n = Integer.parseInt(br.readLine());
         StringTokenizer st;
