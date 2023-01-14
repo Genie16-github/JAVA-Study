@@ -1,3 +1,5 @@
+package Bronze;
+
 import java.io.IOException;
 
 public class Test1000 {

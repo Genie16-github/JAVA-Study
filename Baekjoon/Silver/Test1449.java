@@ -1,4 +1,7 @@
-package Silver;// [S3]¼ö¸®°ø Ç×½Â
+package Silver;
+
+// [S3]¼ö¸®°ø Ç×½Â
+
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;

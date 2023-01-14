@@ -1,4 +1,7 @@
-// [S3]¾ÈÅ×³ª
+package Silver;
+
+// [S3]
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;

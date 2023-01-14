@@ -1,4 +1,7 @@
-// [S3]등수 매기기
+package Silver;
+
+// [S3]
+
 import java.io.IOException;
 import java.util.*;
 

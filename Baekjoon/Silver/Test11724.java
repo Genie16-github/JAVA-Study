@@ -1,4 +1,7 @@
-// [S2]¿¬°á ¿ä¼ÒÀÇ °³¼ö
+package Silver;
+
+// [S2]
+
 import java.util.*;
 
 public class Test11724 {
@@ -8,7 +11,7 @@ public class Test11724 {
 	static boolean[] visited = new boolean[1001];
 		
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in); 
+		Scanner sc = new Scanner(System.in);
 		
 		V = sc.nextInt();
 		E = sc.nextInt();
@@ -18,7 +21,7 @@ public class Test11724 {
 			a = sc.nextInt();
 			b = sc.nextInt();
 			
-			// ±×·¡ÇÁ °£¼± ¿¬°á
+			// ï¿½×·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 			graph[a][b] = graph[b][a] = 1;
 		}
 		

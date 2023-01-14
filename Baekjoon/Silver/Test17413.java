@@ -1,4 +1,7 @@
-// [S3]´Ü¾î µÚÁý±â2
+package Silver;
+
+// [S3]
+
 import java.util.*;
 import java.io.*;
 	
@@ -17,7 +20,7 @@ public class Test17413 {
 			if(str.charAt(i) == '<') {
 				tag = true;
 	
-				while( !stack.isEmpty() ) {  // ½ºÅÃ ÃÊ±âÈ­
+				while( !stack.isEmpty() ) {  // ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­
 					sb.append(stack.pop());
 				}
 	
@@ -29,11 +32,11 @@ public class Test17413 {
 				sb.append(str.charAt(i));
 			}
 			
-			else if(tag == true) {     // < ¾È ¹®ÀÚ -> ±×´ë·Î ½ºÅÃ¿¡ ÀÔ·Â
+			else if(tag == true) {     // < ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ -> ï¿½×´ï¿½ï¿½ ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½Ô·ï¿½
 				sb.append(str.charAt(i));
 			}
 
-			else if( tag == false) {     // µÚÁý¾î¾ßÇÒ ¹®ÀÚ¿­
+			else if( tag == false) {     // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½
 				if(str.charAt(i) == ' ') {
 	
 					while( !stack.isEmpty() ) {
@@ -42,7 +45,7 @@ public class Test17413 {
 	
 					sb.append(str.charAt(i));
 				}
-				// °ø¹éÀÌ ¾Æ´Ï¸é, ½ºÅÃ¿¡ °è¼Ó Çª½Ã
+				// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Ï¸ï¿½, ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½ï¿½ï¿½ Çªï¿½ï¿½
 				else {
 					stack.push(str.charAt(i));
 				}

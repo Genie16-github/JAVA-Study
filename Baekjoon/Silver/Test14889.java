@@ -1,4 +1,7 @@
-// [S2]½ºÅ¸Æ®¿Í ¸µÅ©
+package Silver;
+
+// [S2]
+
 import java.util.*;
 public class Test14889 {
 	
@@ -32,8 +35,8 @@ public class Test14889 {
 			
 			for (int i = 1; i <= n; i++) {
 				for (int j = 1; j <= n; j++) {
-					if(check[i] && check[j]) first += board[i][j];   // Ã¹¹øÂ° ÆÀ
-					if(!check[i] && !check[j]) second += board[i][j];  // µÎ¹øÂ° ÆÀ
+					if(check[i] && check[j]) first += board[i][j];   // Ã¹ï¿½ï¿½Â° ï¿½ï¿½
+					if(!check[i] && !check[j]) second += board[i][j];  // ï¿½Î¹ï¿½Â° ï¿½ï¿½
 				}
 			}
 			

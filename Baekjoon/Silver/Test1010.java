@@ -1,4 +1,7 @@
+package Silver;
+
 // [S5]
+
 import java.util.Scanner;
  
 public class Test1010 {

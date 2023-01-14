@@ -1,4 +1,7 @@
+package Silver;
+
 // [S3]Yonsei TOTO
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -23,19 +26,19 @@ public class Test12018 {
 			
 			st = new StringTokenizer(br.readLine());
 			
-			if(p>=l) { // ½ÅÃ» ÀÎ¿ø >= ¼ö°­ ÀÎ¿ø
+			if(p>=l) { // ï¿½ï¿½Ã» ï¿½Î¿ï¿½ >= ï¿½ï¿½ï¿½ï¿½ ï¿½Î¿ï¿½
 				int[] sub = new int[p];
 				for(int j=0; j<p; j++) sub[j] = Integer.parseInt(st.nextToken());
 				Arrays.sort(sub);
 				arr[i] = sub[p-l];
-			}else { // ¼ö°­ÀÎ¿øº¸´Ù ½ÅÃ»ÇÑ »ç¶÷ÀÌ ÀûÀ¸¸é ¸¶ÀÏ¸®Áö¸¦ ¸¹ÀÌ ¾µ ÇÊ¿äX
+			}else { // ï¿½ï¿½ï¿½ï¿½ï¿½Î¿ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ê¿ï¿½X
 				arr[i] = 1;
 			}
 		}
-		Arrays.sort(arr); // ÇÊ¿ä ¸¶ÀÏ¸®Áö ¿À¸§Â÷¼ø Á¤·Ä
+		Arrays.sort(arr); // ï¿½Ê¿ï¿½ ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		
 		int cnt = 0;
-		for(int i=0; i<n; i++) {  // º¸À¯ ¸¶ÀÏ¸®Áö¸¦ ³ÑÁö ¾Ê´Â ¼±±îÁö °è¼Ó ÇÕ
+		for(int i=0; i<n; i++) {  // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½
 			if(arr[i]>m) break;
 			m -= arr[i];
 			cnt++;

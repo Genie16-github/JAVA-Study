@@ -1,4 +1,7 @@
-package Silver;// [S4]보물
+package Silver;
+
+// [S4]보물
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

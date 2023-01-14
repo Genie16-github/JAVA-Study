@@ -1,4 +1,7 @@
-// [S3]모든 순열
+package Silver;
+
+// [S3]
+
 import java.util.*;
 
 public class Test10974{

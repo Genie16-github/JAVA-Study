@@ -1,4 +1,7 @@
-// [S3]ÁÖÀ¯¼Ò
+package Silver;
+
+// [S3]
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
@@ -11,23 +14,23 @@ public class Test13305 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
 		
-		long[] d = new long[N - 1];	// °Å¸®
-		long[] c = new long[N];	// ºñ¿ë 
+		long[] d = new long[N - 1];	// ï¿½Å¸ï¿½
+		long[] c = new long[N];	// ï¿½ï¿½ï¿½ 
 		
-		// ¿À¸¥ÂÊ µµ½Ã±îÁö °Å¸® 
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ã±ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½ 
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		for(int i = 0; i < N - 1; i++) {
 			d[i] = Long.parseLong(st.nextToken());
 		}
 		
-		// ¸®ÅÍ´ç ±â¸§°ª
+		// ï¿½ï¿½ï¿½Í´ï¿½ ï¿½â¸§ï¿½ï¿½
 		st = new StringTokenizer(br.readLine(), " ");
 		for(int i = 0; i < N; i++) {
 			c[i] = Long.parseLong(st.nextToken());
 		}
 		
 		long sum = 0;
-		long min_cost = c[0];	// ÀÌÀü ±îÁöÀÇ °úÁ¤ Áß ÁÖÀ¯ ÃÖ¼Ò ºñ¿ë 
+		long min_cost = c[0];	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ ï¿½ï¿½ï¿½ 
  
 		for(int i = 0; i < N - 1; i++) {
 			

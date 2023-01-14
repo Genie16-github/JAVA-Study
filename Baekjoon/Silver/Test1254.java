@@ -1,5 +1,6 @@
-// [S2]팰린드롬 만들기
 package Silver;
+
+// [S2]팰린드롬 만들기
 
 import java.io.BufferedReader;
 import java.io.IOException;
