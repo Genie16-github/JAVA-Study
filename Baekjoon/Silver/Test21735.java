@@ -25,6 +25,7 @@ public class Test21735 {
 
         dfs(0, 1, 0);
         System.out.println(res);
+        br.close();
 
     }
 
