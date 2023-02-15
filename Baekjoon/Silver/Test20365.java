@@ -12,7 +12,6 @@ public class Test20365 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
-        int res;
         List<String> bList = new ArrayList<>();
         List<String> rList = new ArrayList<>();
 
@@ -29,6 +28,7 @@ public class Test20365 {
             rList.add(st.nextToken());
         }
 
+        int res;
         if (rList.size() >= bList.size()) res = bList.size() + 1;
         else res = rList.size() + 1;
 
