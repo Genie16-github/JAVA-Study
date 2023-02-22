@@ -3,11 +3,6 @@ package Level0;
 
 import java.util.Scanner;
 
-class Solution {
-    public int solution(int num1, int num2) {
-        return num1 - num2;
-    }
-}
 public class Test1 {
     public static void main(String[] args) {
         Solution solution = new Solution();
@@ -15,5 +10,11 @@ public class Test1 {
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
         System.out.println(solution.solution(num1, num2));
+    }
+
+    static class Solution {
+        public int solution(int num1, int num2) {
+            return num1 - num2;
+        }
     }
 }
